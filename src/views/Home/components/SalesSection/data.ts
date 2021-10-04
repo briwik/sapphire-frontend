@@ -10,7 +10,7 @@ export const swapSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/',
+    to: 'https://sapphireswap.finance/',
     text: 'Learn',
     external: true,
   },
@@ -34,7 +34,7 @@ export const earnSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/products/yield-farming',
+    to: '#',
     text: 'Learn',
     external: true,
   },
@@ -49,9 +49,9 @@ export const earnSectionData: SalesSectionProps = {
 }
 
 export const cakeSectionData: SalesSectionProps = {
-  headingText: 'SAP makes our world go round.',
+  headingText: 'Sapphire makes our world shine.',
   bodyText:
-    'SAP token is at the heart of the Sapphire Finance ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'Sapphire token is at the heart of the SapphireSwap ecosystem. Buy it, farm it, spend it, stake it... heck, you can even vote with it!',
   reverse: false,
   primaryButton: {
     to: '/swap?outputCurrency=0xd90AeaD917b72f5BbCedC08CB02A05c80eCEe313',
@@ -59,7 +59,7 @@ export const cakeSectionData: SalesSectionProps = {
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.pancakeswap.finance/tokenomics/cake',
+    to: '#',
     text: 'Learn',
     external: true,
   },

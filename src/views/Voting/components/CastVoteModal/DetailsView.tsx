@@ -50,7 +50,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('Manual CAKE Pool')}
+          {t('Manual SAP Pool')}
         </Text>
         <Text textAlign="right">{formatNumber(cakePoolBalance, 0, 3)}</Text>
       </Flex>
@@ -68,7 +68,7 @@ const DetailsView: React.FC<DetailsViewProps> = ({
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="4px">
         <Text color="textSubtle" fontSize="16px">
-          {t('CAKE BNB LP')}
+          {t('SAP BNB LP')}
         </Text>
         <Text textAlign="right">{formatNumber(cakeBnbLpBalance, 0, 3)}</Text>
       </Flex>
