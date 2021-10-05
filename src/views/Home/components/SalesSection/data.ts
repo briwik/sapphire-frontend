@@ -26,7 +26,7 @@ export const swapSectionData: SalesSectionProps = {
 
 export const earnSectionData: SalesSectionProps = {
   headingText: 'Earn passive income with crypto.',
-  bodyText: 'Sapphire Finance makes it easy to make your crypto work for you.',
+  bodyText: 'Sapphireswap makes it easy to make your crypto work for you.',
   reverse: true,
   primaryButton: {
     to: '/farms',
